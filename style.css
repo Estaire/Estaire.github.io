@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 30% 70%; 
+	grid-template-areas:
+	"header header"
+	"sidebar main";
+}
+
+.header{
+	padding: 30px;
+	background: #334;
+	grid-area: header;
+	color: #7ca;
+	text-align: center;
+	font-family: sans-serif; 
+}
+
+.header div{
+	padding: 20px;
+	border: 2px solid #7ca;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.sidebar{
+	background:#ddd;
+	grid-area: sidebar;
+	margin: 20px 50px;
+	padding: 30px;
+}
+
+.sidebar li{
+	padding: 5px 10px;
+}
+
+.sidebar li a{
+	text-decoration: none;
+	color: black;
+}
+
+.sidebar img{
+	border-radius: 200px;
+	padding:25px;
+	height: 200px
+}
+
+.sidebar h2{
+	font-family: sans-serif;
+}
+
+.contact{
+	border-bottom: 2px solid black;
+	margin: 0 auto;
+}
+
+.main{
+	grid-area: main;
+}
+
+.main section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #bbb
+}
+
+.main li{
+	margin: 0px 10px;
+}
+
+.main h2{
+	font-family: sans-serif;
+}
+
+.job1{
+	display: flex;
+}
+
+.job1 div{
+	width: 20%;
+	height: 100px;
+}
+
+.job2{
+	display: flex;
+}
+
+.job2 div{
+	width: 20%;
+	height: 70px;
+}
+
+.data1{
+	flex:2;
+}
+
+.data2{
+	flex:2;
+} 
+
+.degree{
+	display: flex;
+}
+
+.degree div{
+	width: 20%;
+	height: 50px;
+}
+
+.data3{
+	flex:2;
+}
